@@ -29,7 +29,7 @@ while keep_going: #loop de jogo
     if picx <=0 or picx + pic.get_width() >=600:
         speed_x = -speed_x
           
-    if picy <=0 or picy + pic.get_width() >=800:
+    if picy <=0 or picy + pic.get_height() >=800:
         speed_y = -speed_y
         
     screen.fill((BLACK)) #Limpa a tela
